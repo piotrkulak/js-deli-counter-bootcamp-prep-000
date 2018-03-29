@@ -1,4 +1,5 @@
-var katzDeliLine = [name, index]
+function takeANumber(line, name) {
+  line.push(name)
 
-function takeANumber(){("Welcome, $(name). You are number $(index) in line.")
-}
+  return `Welcome, ${name}. You are number ${line.length} in line.`
+};
